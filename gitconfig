@@ -1,0 +1,21 @@
+[user]
+    email = 31453806+drtx4096@users.noreply.github.com 
+
+[alias]
+    co = checkout
+    ci = commit
+    st = status
+    dt = difftool
+    mt = mergetool
+
+[diff]
+    tool = meld
+
+[difftool]
+    prompt = false
+
+[merge]
+    tool = meld
+
+[mergetool]
+    keepBackup = false
