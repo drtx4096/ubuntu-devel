@@ -1,0 +1,4 @@
+# Enable passwordless sudo for user.
+# Copy this file to /etc/sudoers.d/
+
+sudoer ALL=(ALL) NOPASSWD:ALL
