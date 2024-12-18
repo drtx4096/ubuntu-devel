@@ -7,6 +7,13 @@
     st = status
     dt = difftool
     mt = mergetool
+    br = branch
+
+[gpg]
+        format = ssh
+
+[commit]
+        gpgsign = true
 
 [diff]
     tool = meld
@@ -19,3 +26,8 @@
 
 [mergetool]
     keepBackup = false
+
+[push]
+        autoSetupRemote = true
+[credential]
+	helper = store

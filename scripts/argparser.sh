@@ -13,7 +13,7 @@ function usage() {
 
         -h | --help: Print this usage statement and exit.
         --ip: Provide an IP address. The default is 127.0.0.1.
-        " | sed -E -e 's/^\s*//'  # Remove leading whitespace in output.
+        " | sed -E -e 's/^\s*//' # Remove leading whitespace in output.
 }
 
 script_dir=$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")" &>/dev/null && pwd)
